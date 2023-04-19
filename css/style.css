@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
 }
 
 /* HEADER */
@@ -13,6 +14,8 @@ body{
 header{
     position: fixed;
     z-index: 100;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -66,16 +69,54 @@ header{
 
 /* JUMBOTRON */
 
+
 .jumbotron{
     background-color: #B4D0E7;
-    height: 100vh;
+    height: 700px;
     width: 100%;
-
+    margin-top: 100px;
+    padding-top: 80px;
 }
 
+h1{
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.containerjumbo{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
+.row-jumbo{
+    display: flex;
+    justify-content: flex-start;
+}
 
+.col-jumbo{
+    width: 32%;
+    margin-top: 75px;
+}
 
+#jumbo-img{
+    height: 500px;
+}
 
+ul{
+    list-style: none;
+    line-height: 20px;
+}
+
+#prova {
+    background-color: #0061FF;
+    color: white;
+    padding: 11px;
+    margin-top: 35px;
+    width: 246px;
+}
+
+#annulla{
+    margin-top: 35px;
+
+}
 /* END JUMBOTRON */
