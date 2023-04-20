@@ -79,12 +79,12 @@ header{
 }
 
 h1{
-    font-size: 75px;
+    font-size: 80px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .containerjumbo{
-    max-width: 1100px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ ul{
 #prova {
     background-color: #0061FF;
     color: white;
-    padding: 11px;
+    padding: 10px 15px;
     margin-top: 35px;
     width: 246px;
 }
@@ -120,3 +120,126 @@ ul{
 
 }
 /* END JUMBOTRON */
+
+/* BUSINESS SECTION */
+
+
+.section-business{
+    height: 800px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row-bus{
+    display: flex;
+    justify-content: left;
+}
+.col-business{
+    max-width: 973px;
+    margin-top: 256px;
+    margin-left: 30px;
+}
+
+.content-business{
+    max-width: 1000px;
+}
+
+
+h3{
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+h6{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ul-bus{
+    margin-top: 60px;
+    
+}
+
+.li-bus{
+    display: inline;
+    margin-left: 7px;
+}
+
+#annuale{
+    margin-left: 30px;
+}
+
+.col-sup{
+    width: calc(100% / 3 - 20px);
+    margin: 50px 30px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.col-table{
+    width: calc(100% / 3 - 20px);
+    margin: 50px 30px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+
+.name-table{
+    text-align: center;
+    border-bottom: solid 1px lightgray;
+}
+
+
+.content-table,.ul-table, .ul-saliente, .prova-ul{
+    margin-top: 35px;
+    line-height: 40px;
+}
+
+.acquista-ul{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.ulfirst{
+    line-height: 30px;
+}
+
+
+.line{
+    line-height: 20px;
+}
+
+
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 14px;
+}
+
+.prova-ul{
+    background-color: #0061FF;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.hr-small{
+    width: 60px;
+    border: 1px solid lightgray;
+}
+
+.aspetti-salienti{
+    margin-top: 30px;
+}
