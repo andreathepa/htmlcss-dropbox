@@ -80,7 +80,7 @@ header{
 }
 
 .back{
-    background-color: blue;
+    background-color:#0061FF;
     color: white;
     padding: 5px 15px;
 }
@@ -130,12 +130,14 @@ ul{
 }
 
 #prova {
-    background-color: #0061FF;
+    background-color:#0061FF;
     color: white;
-    padding: 10px 15px;
+    padding: 16px;
     margin-top: 35px;
     width: 246px;
+    text-align: center;
 }
+
 
 #annulla{
     margin-top: 35px;
@@ -240,8 +242,14 @@ ul{
 
 .prova-ul{
     background-color: #0061FF;
-    padding: 5px;
+    padding: 16px;
     text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.no-line{
+    text-decoration: none;
     color: white;
 }
 
@@ -264,7 +272,7 @@ li:not(:last-child) {
 /* THIRD CONTAINER */
 
 .container-third{
-    max-width: 1040px;
+    max-width: 1052px;
     margin: 0 auto;
 }
 
