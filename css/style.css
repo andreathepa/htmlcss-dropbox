@@ -274,6 +274,7 @@ li:not(:last-child) {
 .container-third{
     max-width: 1052px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .col-100{
@@ -323,3 +324,38 @@ li:not(:last-child) {
     color: white;
     text-decoration: none;
 }
+
+
+/* FOURTH CONTAINER */
+
+.container-fourth{
+    margin-top: 140px;
+}
+
+.col-partner-left{
+    width: 70%;
+
+}
+
+.col-partner-right{
+    width: 30%;
+    margin: 75px 45px 0px 50px;
+    
+}
+
+#partner-img{
+    width: 628px;
+}
+
+.distance-part{
+    margin-bottom: 40px;
+}
+
+.trasparente{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+/* FIFTH CONTAINER */
