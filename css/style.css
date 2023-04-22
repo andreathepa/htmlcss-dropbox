@@ -149,13 +149,11 @@ ul{
 
 
 .section-business{
-    height: 800px;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .section-business-plan{
-    height: 800px;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -404,12 +402,152 @@ li:not(:last-child) {
     color: blue;
 }
 
-/* END FIFTH CONTAINER */
+/* END FIFTH CONTAINER-END BUSINESS SECTION */
 
-/* SIXTH CONTAINER */
+/* SECTION LOGOS */
 
-.container-fifth{
+.section-logos{
+    width: 100%;
     margin-top: 140px;
 }
 
+.container-sixth{
+    width: 100%;
+}
 
+
+.col-logo{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.riga-logo{
+    width: 100%;
+    display: flex;
+}
+.row-logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-square{
+    width: 50%;
+    height: 50%;
+}
+
+.content-grey{
+    padding: 50px;
+}
+
+#small-designit{
+    width: 245px;
+}
+
+.medium-hr{
+    width: 80px;
+}
+
+.title-grey, .medium-hr, .text-grey{
+    margin-bottom: 40px;
+}
+
+/* SQUARE COLORS */
+.grey{
+    background-color: #F5F5F5;
+}
+.green{
+    background-color: #A2D39B;
+}
+
+.brown{
+    background-color: #61082B;
+}
+
+.azul{
+    background-color: #0093CE;
+}
+
+.red{
+    background-color: #FF1C1C;
+}
+
+.red-r{
+    background-color: #D5001F;
+}
+
+.azul-a{
+    background-color: #B4D0E7;
+}
+
+.blue{
+    background-color: #0D2481;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+
+
+.filter{
+    filter: invert(100%) sepia(0%) saturate(7492%) hue-rotate(247deg) brightness(103%) contrast(100%);;
+    
+}
+
+/* POSITION LOGOS */
+.content-logos{
+    position: relative;
+}
+
+.logos-img{
+    position: absolute;
+}
+
+.designit{
+    height: 50px;
+    left: 77px;
+    top: 125px;
+}
+
+.asu{
+    height: 100px;
+    left: 105px;
+    top: 102px;
+}
+
+.flo{
+    height: 35px;
+    left: 55px;
+    top: 152px;
+}
+
+.top{
+    height: 85px;
+    left: 65px;
+    top: 122px;
+}
+
+.bike{
+    height: 61px;
+    left: 69px;
+    top: 125px;
+}
+
+.heart{
+    height: 19px;
+    left: 77px;
+    top: 159px;
+}
+
+.planet{
+    height: 85px;
+    left: 70px;
+    top: 123px;
+}
+
+.clear{
+    height: 85px;
+    left: 104px;
+    top: 122px;
+}
