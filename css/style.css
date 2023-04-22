@@ -85,6 +85,11 @@ header{
     padding: 5px 15px;
 }
 
+.li-head-link{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* END HEADER */
 
@@ -409,6 +414,7 @@ li:not(:last-child) {
 .section-logos{
     width: 100%;
     margin-top: 140px;
+    background-color: #B4D0E7;
 }
 
 .container-sixth{
@@ -551,3 +557,143 @@ li:not(:last-child) {
     left: 104px;
     top: 122px;
 }
+
+/* END POSITION LOGOS- END CONTAINER SIXTH */
+
+
+/* CONTAINER SEVENTH */
+
+.container-seventh{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.col-porta-drop{
+    width: 60%;
+    padding: 86px;
+}
+
+.col-prova-gratuita{
+    width: 40%;
+    padding: 90px;
+    padding-left: 79px;
+}
+
+.button-prova{
+    background-color: white;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+#decor-butt{
+    text-decoration: none;
+    color: black;
+}
+
+#porta-dropbox{
+    font-size: 30px;
+}
+
+/* END CONTAINER SEVENTH */
+
+#faq-title{
+    margin: 120px 0px 74px 0px;
+
+}
+.container-faq{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+#faq-h{
+    font-size: 40px;
+    padding: 181px 0px 50px 0px;
+}
+
+.riga-faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-faq{
+    border: 1px solid black;
+    padding: 40px 0px 40px 0px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.bott{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* END FAQ- END MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+.final-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 120px;
+    padding-top: 100px;
+}
+.col-foot{
+    width: calc(100% / 5);
+    padding: 20px;
+}
+
+.title-foot{
+    margin-bottom: 40px;
+}
+
+.ul-foot{
+    list-style: none;
+}
+
+.title-ul{
+    font-size: 40px;
+}
+
+.foot-space{
+    justify-content: space-around;
+}
+
+.foot-hr{
+    justify-content: left;
+}
+
+.col-ita{
+    margin-left: 20px;
+    border-top: 1px solid white;
+    padding: 31px 0px 0px 0px;
+    margin-top: 100px;
+}
+
+#italiano-foot{
+    color: white;
+    text-decoration: none;
+}
+
+#menù-foot{
+    vertical-align: 8px;
+    margin-left: 2px;
+    font-size: 29px;
+}
+
+#globe{
+    margin-right: 10px;
+}
+
+.li-foot-link{
+    color: white;
+    text-decoration: none;
+}
+
+/* END FOOTER */
